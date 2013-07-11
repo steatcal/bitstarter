@@ -9,7 +9,6 @@ buf = fs.readFileSync('index.html');
 
 
 app.get('/', function(request, response) {
-  response.send('Hello World! Hallo Welt!--version 2');
   response.send(buf.toString('utf-8'));
 });
 
