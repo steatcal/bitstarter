@@ -1,5 +1,5 @@
-var express = require('../node-js-sample/node_modules/express');
-//var express = require('express');
+//var express = require('../node-js-sample/node_modules/express');
+var express = require('express');
 var app = express.createServer(express.logger());
 
 var fs = require('fs');
